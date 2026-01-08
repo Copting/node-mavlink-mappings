@@ -35,8 +35,8 @@
     "prepublishOnly": "npm install && npm run clean && npm install && npm run regenerate"
   },
   "dependencies": {
-    "ts-node": "^10.9.1",
-    "mavlink-mappings-gen": "git://github.com/Copting/mavlink-mappings-gen.git#master"
+    "mavlink-mappings-gen": "github:Copting/mavlink-mappings-gen#master",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/node": "^18.15.10",
